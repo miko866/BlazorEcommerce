@@ -100,3 +100,15 @@ a, .btn-link {
         content: var(--blazor-load-percentage-text, "Loading");
     }
 
+.price {
+    color: green;
+}
+
+.media {
+    display: flex;
+    align-items: flex-start;
+}
+
+.media-body {
+    flex: 1;
+}
