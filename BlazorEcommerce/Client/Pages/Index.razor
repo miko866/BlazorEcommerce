@@ -6,7 +6,15 @@
 
 <PageTitle>My Shop</PageTitle>
 
+@if (SearchText == null && CategoryUrl == null)
+{
+    <FeaturedProducts/>
+}
+else
+{
+    
 <ProductList/>
+}
 
 @code {
     [Parameter]
